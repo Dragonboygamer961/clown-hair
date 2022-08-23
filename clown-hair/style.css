@@ -1,0 +1,20 @@
+canvas{
+
+    border: 2px solid black;
+
+    animation-name: robo;
+    animation-iteration-count: infinite;
+animation-duration: 2s;
+}
+
+
+@keyframes robo{
+
+    from{
+        box-shadow: 1px 1px 50px rgb(30, 255, 0);
+    }
+    to{
+        box-shadow: 1px 1px 50px rgb(255, 30, 0);
+    }
+
+}
